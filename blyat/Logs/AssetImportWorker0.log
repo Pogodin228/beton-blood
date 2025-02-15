@@ -15,7 +15,7 @@ C:/Users/Savelii/Documents/GitHub/beton-blood/blyat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50611
+50709
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Savelii/Documents/GitHub/beton-blood/blyat
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10752]  Target information:
+Player connection [14404]  Target information:
 
-Player connection [10752]  * "[IP] 192.168.239.199 [Port] 0 [Flags] 2 [Guid] 3603305932 [EditorId] 3603305932 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0J43N59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14404]  * "[IP] 192.168.239.199 [Port] 0 [Flags] 2 [Guid] 2570212120 [EditorId] 2570212120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0J43N59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10752] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10752] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14404] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14404] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004151 seconds.
-- Loaded All Assemblies, in  0.441 seconds
+Registered in 0.004939 seconds.
+- Loaded All Assemblies, in  0.488 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.359 seconds
-Domain Reload Profiling: 798ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 905ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (143ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (156ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (178ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (360ms)
+	FinalizeReload (420ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (322ms)
+		SetupLoadedEditorAssemblies (370ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (168ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,257 +139,249 @@ Domain Reload Profiling: 798ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.757 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.854 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.640 seconds
-Domain Reload Profiling: 1393ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1552ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (47ms)
+	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (336ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (383ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (168ms)
-			BuildScriptInfoCaches (36ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (641ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (188ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (704ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (564ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (381ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3689 unused Assets / (1.2 MB). Loaded Objects now: 4173.
-Memory consumption went from 81.8 MB to 80.6 MB.
-Total: 8.847000 ms (FindLiveObjects: 0.530200 ms CreateObjectMapping: 0.745000 ms MarkObjects: 5.926700 ms  DeleteObjects: 1.643300 ms)
+Unloading 3689 unused Assets / (1.1 MB). Loaded Objects now: 4175.
+Memory consumption went from 82.3 MB to 81.2 MB.
+Total: 10.202400 ms (FindLiveObjects: 0.861400 ms CreateObjectMapping: 0.760000 ms MarkObjects: 6.892700 ms  DeleteObjects: 1.687100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2691.618361 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0065138 seconds
+  Time since last request: 3576.537432 seconds.
+  path: Assets/models/kvartira/karpet
+  artifactKey: Guid(564367c24dfeea94fb2e9b1398f82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/karpet using Guid(564367c24dfeea94fb2e9b1398f82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41409fde3c77c3ac1c0612072944c16d') in 0.0073205 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.804351 seconds.
-  path: Assets/models
-  artifactKey: Guid(bbd37e5b008b9034a893691dde35e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models using Guid(bbd37e5b008b9034a893691dde35e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80e10959f7be31c2145dea11b68954ee') in 0.0008278 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/karpet/Fine Persian Esfahan Carpet.fbx
+  artifactKey: Guid(7818138bdfd1c1a45a0db15777aea988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/karpet/Fine Persian Esfahan Carpet.fbx using Guid(7818138bdfd1c1a45a0db15777aea988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d6d5d9a0a3bc2c86793d4f560c5caaa') in 0.1819349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.794495 seconds.
+  path: Assets/models/kvartira/karpet/Fine Persian Esfahan Carpet.fbx
+  artifactKey: Guid(7818138bdfd1c1a45a0db15777aea988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/karpet/Fine Persian Esfahan Carpet.fbx using Guid(7818138bdfd1c1a45a0db15777aea988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97945f5efbe0e8f052088cd7fbee45d5') in 0.0249889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.973506 seconds.
+  path: Assets/models/kvartira/sofa
+  artifactKey: Guid(80451e92d25864a43909fb15dcf27e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/sofa using Guid(80451e92d25864a43909fb15dcf27e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '565743ba6cc6d174316ffe2907ed8edf') in 0.0005272 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.968866 seconds.
-  path: Assets/models/bath
-  artifactKey: Guid(5d495bc3f743ebc478bd9996b34d9635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/bath using Guid(5d495bc3f743ebc478bd9996b34d9635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09b182a261b48c22ab503b2467763fab') in 0.0004461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.060762 seconds.
+  path: Assets/models/kvartira/sofa/divan.fbx
+  artifactKey: Guid(d258010807693564e8b20fad8113ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/sofa/divan.fbx using Guid(d258010807693564e8b20fad8113ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72d31281f70afbd665710c0460cddbf7') in 0.0222218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.587095 seconds.
-  path: Assets/models/bath/Bath_Base_Color.png
-  artifactKey: Guid(6eae7dbf864a1324cb67f236a3f4e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/bath/Bath_Base_Color.png using Guid(6eae7dbf864a1324cb67f236a3f4e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '074bfd07d08db6c1c810d1c6502896c4') in 0.0760246 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/sofa/ussr-sofa_DefaultMaterial_Normal.png
+  artifactKey: Guid(2cab6f4a598eb4947bf2ffc07b9d50dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/sofa/ussr-sofa_DefaultMaterial_Normal.png using Guid(2cab6f4a598eb4947bf2ffc07b9d50dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdeafada229bd93a318e85e32bbca674') in 0.0319512 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/models/bath/Bath_Normal_DirectX.png
-  artifactKey: Guid(336432d35de09804689909c267c93cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/bath/Bath_Normal_DirectX.png using Guid(336432d35de09804689909c267c93cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '777f79cfcf7b106fd85ca4a266da29ac') in 0.0186236 seconds
+  Time since last request: 258.557633 seconds.
+  path: Assets/models/kvartira/sofa/ussr-sofa_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(1ba9f46b2db23694abdcbdef9d56c213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/sofa/ussr-sofa_DefaultMaterial_BaseColor.png using Guid(1ba9f46b2db23694abdcbdef9d56c213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f73d8ccefcf357815b5534dee4de68d') in 0.0171658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.256312 seconds.
+  path: Assets/models/kvartira/sofa/ussr-sofa_DefaultMaterial_Normal.png
+  artifactKey: Guid(2cab6f4a598eb4947bf2ffc07b9d50dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/sofa/ussr-sofa_DefaultMaterial_Normal.png using Guid(2cab6f4a598eb4947bf2ffc07b9d50dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9252be3e6f7f83bd5728fc896589b1') in 0.0211222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 482.938857 seconds.
+  path: Assets/models/kvartira/stol_pc
+  artifactKey: Guid(dba7430a24a066f4d8b47922a4254917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc using Guid(dba7430a24a066f4d8b47922a4254917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1798459d7f6fc9f396b5f71c8b61b7e6') in 0.00083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083150 seconds.
+  path: Assets/models/kvartira/stol_pc/soviet_table_Material.001_AO.png
+  artifactKey: Guid(2fb3bc5b18a939844b9609dd7ae1d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/soviet_table_Material.001_AO.png using Guid(2fb3bc5b18a939844b9609dd7ae1d80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '147989aaf7195032e57838487369bab0') in 0.0218965 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/models/bath/Bath_Roughness.png
-  artifactKey: Guid(aa8c37e2ca1fe514ca0f740442013f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/bath/Bath_Roughness.png using Guid(aa8c37e2ca1fe514ca0f740442013f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5a5cce3dd5cc4e128993fb65ba0c2e1') in 0.0168341 seconds
+  path: Assets/models/kvartira/stol_pc/soviet_table_Material.001_Rough.png
+  artifactKey: Guid(45e5ac7d492c4f24985214ebda4ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/soviet_table_Material.001_Rough.png using Guid(45e5ac7d492c4f24985214ebda4ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8c560d0d014022aed6d9246936da3ec') in 0.0183842 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.411095 seconds.
-  path: Assets/models/kvartira
-  artifactKey: Guid(d76917511bb39bd47a182e49edb97c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira using Guid(d76917511bb39bd47a182e49edb97c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd282f283b78aa4dea19b272fafbe1c5') in 0.0005678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.746044 seconds.
-  path: Assets/models/kvartira/stena_dom
-  artifactKey: Guid(c02c70db882dbbd4cb466a197f7cf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/stena_dom using Guid(c02c70db882dbbd4cb466a197f7cf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc703281ebfb8eb2cb801bf2b55db3f4') in 0.0005004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054984 seconds.
-  path: Assets/models/kvartira/stena_dom/stena.fbx
-  artifactKey: Guid(e3027b6ffe434ce45bc7cc2dda283a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/stena_dom/stena.fbx using Guid(e3027b6ffe434ce45bc7cc2dda283a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0f2a2be5e1ad5ce41050ec97901491c') in 0.3678402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.289605 seconds.
-  path: Assets/models/kvartira/stena_dom/tex
-  artifactKey: Guid(cc91f9b76f251ec46a1d19cc693a44ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/stena_dom/tex using Guid(cc91f9b76f251ec46a1d19cc693a44ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e5cb2ebfc5354c6d36550dd7adee517') in 0.0005674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076262 seconds.
-  path: Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Base_color.png
-  artifactKey: Guid(1353d435298dcd04ba7b9e8ee86b4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Base_color.png using Guid(1353d435298dcd04ba7b9e8ee86b4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07041a341b94a7fabd177ef4909f08fa') in 0.0156819 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/models/kvartira/stol_pc/soviet_table_Material.001_Metallic.png
+  artifactKey: Guid(a0cf8f11e67d9cf459a64c5ef1d533a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/soviet_table_Material.001_Metallic.png using Guid(a0cf8f11e67d9cf459a64c5ef1d533a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd3bdb9e77d7c551422ce75b7eefc345') in 0.0180365 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Normal_OpenGL.png
-  artifactKey: Guid(b44505e35193d7242bfa4e3575f68c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Normal_OpenGL.png using Guid(b44505e35193d7242bfa4e3575f68c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7a53930a1b36a1729a79a0a19ec7169') in 0.014621 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/kvartira/stol_pc/soviet_table_Material.001_Normal.png
+  artifactKey: Guid(defbf832dde3d4b4892ccfcd44866088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/soviet_table_Material.001_Normal.png using Guid(defbf832dde3d4b4892ccfcd44866088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '326a23a342c6c09139d2072452da70d0') in 0.0181402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.372388 seconds.
+  path: Assets/models/kvartira/stol_pc/soviet_table_Material.001_BaseMap.png
+  artifactKey: Guid(e90306bd8f3e0a34baa6e2a873054da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/soviet_table_Material.001_BaseMap.png using Guid(e90306bd8f3e0a34baa6e2a873054da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88e47a62fe6360dd37fb754e22d776a4') in 0.0151242 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Metallic.png
-  artifactKey: Guid(fb927d44c28ac364798fdfa9034950b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Metallic.png using Guid(fb927d44c28ac364798fdfa9034950b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4823c25eb2e22592ef74327eb9a1d2dd') in 0.013656 seconds
+  path: Assets/models/kvartira/stol_pc/soviet_table_Material.001_Rough.png
+  artifactKey: Guid(45e5ac7d492c4f24985214ebda4ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/soviet_table_Material.001_Rough.png using Guid(45e5ac7d492c4f24985214ebda4ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be707c843ac15930718a3bbed72dd37e') in 0.0158504 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Normal.png
-  artifactKey: Guid(5b6a420c262eede47800cf91549b0e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/stena_dom/tex/DefaultMaterial_Normal.png using Guid(5b6a420c262eede47800cf91549b0e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64b88d13b6c7e21a5c4b58b59b6183db') in 0.0136536 seconds
+  Time since last request: 17.095265 seconds.
+  path: Assets/models/kvartira/stol_pc/soviet_table_Material.001_Normal.png
+  artifactKey: Guid(defbf832dde3d4b4892ccfcd44866088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/soviet_table_Material.001_Normal.png using Guid(defbf832dde3d4b4892ccfcd44866088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c9e3c83a4a2bf5b8f2e9a94538ab060') in 0.0135595 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.977893 seconds.
-  path: Assets/models/kvartira/pol
-  artifactKey: Guid(8f91e266d8ae15a499707d557cfc06ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol using Guid(8f91e266d8ae15a499707d557cfc06ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89e7bbde1cfb6216dea79f097ec9715e') in 0.0005016 seconds
+  Time since last request: 313.472035 seconds.
+  path: Assets/models/kvartira/stol_pc/Materials
+  artifactKey: Guid(3c8231482d2edee40b54fcd30286ef0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/stol_pc/Materials using Guid(3c8231482d2edee40b54fcd30286ef0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01d5e8e04b77658ac261d4629a4a0343') in 0.0008227 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.090281 seconds.
-  path: Assets/models/kvartira/pol/parket.fbx
-  artifactKey: Guid(5c44d9bce86edf24db77f62ed4beff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/parket.fbx using Guid(5c44d9bce86edf24db77f62ed4beff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad958a00964863684b2b31aaa617f0e') in 0.0439838 seconds
+  Time since last request: 54.776995 seconds.
+  path: Assets/models/kvartira/radiator
+  artifactKey: Guid(58eeeb138b8f43f48812d25dff3ce470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator using Guid(58eeeb138b8f43f48812d25dff3ce470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '713009aa78966b6f37ecf5c21d471e8d') in 0.0004511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074697 seconds.
+  path: Assets/models/kvartira/radiator/radiator.fbx
+  artifactKey: Guid(3bcd4c470587840499055b0c9ad64ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator/radiator.fbx using Guid(3bcd4c470587840499055b0c9ad64ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66706ceef9395dc76e331a8aeb7f569f') in 0.0190275 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.906962 seconds.
-  path: Assets/models/kvartira/pol/keramuka.fbx
-  artifactKey: Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/keramuka.fbx using Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9692acf6b679a87c0d81a0f7b21319c') in 0.2156526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.785966 seconds.
-  path: Assets/models/kvartira/pol/keramuka.fbx
-  artifactKey: Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/keramuka.fbx using Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc7c5e14efb4fb4a22d7dc4668e71f10') in 0.0241962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.921158 seconds.
-  path: Assets/models/kvartira/pol/keramuka 1.fbx
-  artifactKey: Guid(ba0a2d68eaa3e8849b37bc51e1e20fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/keramuka 1.fbx using Guid(ba0a2d68eaa3e8849b37bc51e1e20fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '534825e0b50febd56b71e480744c28ff') in 0.0234412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.778118 seconds.
-  path: Assets/models/kvartira/pol/kitchen
-  artifactKey: Guid(cfa3a9836c3331d47aace732c4ae31c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/kitchen using Guid(cfa3a9836c3331d47aace732c4ae31c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcdeedd49ee29cb25e637b0d0b570c37') in 0.000654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.039541 seconds.
-  path: Assets/models/kvartira/pol/tex
-  artifactKey: Guid(1097257f0489c3d489af0f51523dcd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/tex using Guid(1097257f0489c3d489af0f51523dcd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc9f040332603b92264560d0232f33b4') in 0.0005193 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106232 seconds.
-  path: Assets/models/kvartira/pol/tex/Material.006_Base_color.png
-  artifactKey: Guid(8c115c2321a0c494d8909eb74a134774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/tex/Material.006_Base_color.png using Guid(8c115c2321a0c494d8909eb74a134774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65f9666c7ac5d20de820888fde2430b2') in 0.0171968 seconds
+  Time since last request: 0.013336 seconds.
+  path: Assets/models/kvartira/radiator/батарея_Материал.001_Metallic.png
+  artifactKey: Guid(03a225b8f7dd7e04abecd3d93fed9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator/батарея_Материал.001_Metallic.png using Guid(03a225b8f7dd7e04abecd3d93fed9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5590b1269ded000a97b87976ff448c22') in 0.016933 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/models/kvartira/pol/tex/Material.006_Roughness.png
-  artifactKey: Guid(ea5f29814d119c44bb059b81d897891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/tex/Material.006_Roughness.png using Guid(ea5f29814d119c44bb059b81d897891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '762596302f95f5198c0269410748feb7') in 0.0178564 seconds
+  Time since last request: 18.498277 seconds.
+  path: Assets/models/kvartira/radiator/батарея_Материал.001_BaseColor.png
+  artifactKey: Guid(a4991737ff1eecf4880b53c8939fbcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator/батарея_Материал.001_BaseColor.png using Guid(a4991737ff1eecf4880b53c8939fbcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407e4c3e6e9bf1bb96f64b0b69d8e3df') in 0.0157153 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/models/kvartira/pol/tex/Material.006_Normal.png
-  artifactKey: Guid(5216abf57943e8c42afd6bd3deb08642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/tex/Material.006_Normal.png using Guid(5216abf57943e8c42afd6bd3deb08642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '638410fce8c2034b3b4713c5f47b68d2') in 0.020252 seconds
+  Time since last request: 11.128767 seconds.
+  path: Assets/models/kvartira/radiator/батарея_Материал.001_Metallic.png
+  artifactKey: Guid(03a225b8f7dd7e04abecd3d93fed9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator/батарея_Материал.001_Metallic.png using Guid(03a225b8f7dd7e04abecd3d93fed9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26095696e4c70fc1161e21e1d931675d') in 0.0175031 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.530739 seconds.
-  path: Assets/models/kvartira/pol/keramuka.fbx
-  artifactKey: Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/keramuka.fbx using Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42f7a872722da729818125b8213aab8') in 0.0227269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 4.687914 seconds.
+  path: Assets/models/kvartira/radiator/батарея_Материал.001_Normal.png
+  artifactKey: Guid(f9379c8badd48854b81b9333d164304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator/батарея_Материал.001_Normal.png using Guid(f9379c8badd48854b81b9333d164304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bde1959cd658f927972773094919bafe') in 0.0133362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.886215 seconds.
-  path: Assets/models/kvartira/pol/keramuka.fbx
-  artifactKey: Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/pol/keramuka.fbx using Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48ee297e59db614b20860f9b716c5592') in 0.028802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 6.439975 seconds.
+  path: Assets/models/kvartira/radiator/батарея_Материал.001_Roughness.png
+  artifactKey: Guid(1c91145f61594eb44aea975e3a34d2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator/батарея_Материал.001_Roughness.png using Guid(1c91145f61594eb44aea975e3a34d2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '789c12b6e05fcf2daffcde5866035057') in 0.021915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.691888 seconds.
+  path: Assets/models/kvartira/radiator/батарея_Материал.001_Normal.png
+  artifactKey: Guid(f9379c8badd48854b81b9333d164304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/radiator/батарея_Материал.001_Normal.png using Guid(f9379c8badd48854b81b9333d164304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a19fe83a157f2f0308f8e8f87878fd71') in 0.0169355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
