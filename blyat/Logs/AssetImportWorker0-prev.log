@@ -15,7 +15,7 @@ C:/Users/Savelii/Documents/GitHub/beton-blood/blyat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51550
+51834
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Savelii/Documents/GitHub/beton-blood/blyat
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19612]  Target information:
+Player connection [20280]  Target information:
 
-Player connection [19612]  * "[IP] 192.168.239.199 [Port] 0 [Flags] 2 [Guid] 2334537568 [EditorId] 2334537568 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0J43N59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20280]  * "[IP] 192.168.239.199 [Port] 0 [Flags] 2 [Guid] 2502634751 [EditorId] 2502634751 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0J43N59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19612] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19612] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20280] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20280] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004737 seconds.
-- Loaded All Assemblies, in  0.539 seconds
+Registered in 0.005483 seconds.
+- Loaded All Assemblies, in  0.592 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.424 seconds
-Domain Reload Profiling: 960ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1133ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (164ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (179ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (236ms)
-				TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (231ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (425ms)
+	FinalizeReload (546ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
+		SetupLoadedEditorAssemblies (483ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (200ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,121 +139,315 @@ Domain Reload Profiling: 960ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.858 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.087 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.775 seconds
-Domain Reload Profiling: 1628ms
-	BeginReloadAssembly (212ms)
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1956ms
+	BeginReloadAssembly (275ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (526ms)
-		LoadAssemblies (409ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (495ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (249ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (179ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (775ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (876ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
+		SetupLoadedEditorAssemblies (689ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (503ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3689 unused Assets / (1.1 MB). Loaded Objects now: 4175.
+Memory consumption went from 82.4 MB to 81.3 MB.
+Total: 11.436900 ms (FindLiveObjects: 0.543500 ms CreateObjectMapping: 0.701600 ms MarkObjects: 8.482000 ms  DeleteObjects: 1.708400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7800.676849 seconds.
+  path: Assets/models/kvartira/skaf_with_zerkalo/mirror.fbx
+  artifactKey: Guid(80ac9c18a27c12c4ba5f2b0b43b1ae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/skaf_with_zerkalo/mirror.fbx using Guid(80ac9c18a27c12c4ba5f2b0b43b1ae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3c9825136a269d9950dacebf5ef2e11') in 0.2589084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.718 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1500ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (627ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (451ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3689 unused Assets / (1.1 MB). Loaded Objects now: 4175.
-Memory consumption went from 82.3 MB to 81.2 MB.
-Total: 9.616900 ms (FindLiveObjects: 0.672800 ms CreateObjectMapping: 0.857900 ms MarkObjects: 5.975900 ms  DeleteObjects: 2.104000 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3687 unused Assets / (1.2 MB). Loaded Objects now: 4222.
+Memory consumption went from 86.6 MB to 85.4 MB.
+Total: 8.880200 ms (FindLiveObjects: 0.682800 ms CreateObjectMapping: 1.004600 ms MarkObjects: 5.774600 ms  DeleteObjects: 1.417100 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6749.456425 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/wood_table_001_rough_4k.jpg
-  artifactKey: Guid(68bf3c0b0aa179a40adfaf4109a5f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/wood_table_001_rough_4k.jpg using Guid(68bf3c0b0aa179a40adfaf4109a5f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd1c9f448da31cdf86e66e368b40fc8a') in 0.1193913 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/wood_table_001_diff_4k.jpg
-  artifactKey: Guid(c9a7caa6423166444b3924126de63a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/wood_table_001_diff_4k.jpg using Guid(c9a7caa6423166444b3924126de63a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcbb36a36f3df4d9d4825d4c9eca2c78') in 0.0182745 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.814532 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/wood_table_001_nor_dx_4k.jpg
-  artifactKey: Guid(669e1f12cf8da7445952c0e4e57d8fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/wood_table_001_nor_dx_4k.jpg using Guid(669e1f12cf8da7445952c0e4e57d8fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '035ba21c78ce89f9a7f84ed502ecec9b') in 0.0632564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.407452 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/gold.mat
-  artifactKey: Guid(235e387b81e5e154984b34f6285ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/gold.mat using Guid(235e387b81e5e154984b34f6285ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb0f9f61a3532e624f6aeb956fce49b7') in 0.0714931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.125196 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/New Folder
-  artifactKey: Guid(0652632176e4b3047a700f88a491d682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/New Folder using Guid(0652632176e4b3047a700f88a491d682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d021b59a80c9bf95b9b317528daadb7') in 0.0005157 seconds
+  Time since last request: 211.878369 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0024016 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.410964 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/mirror.mat
-  artifactKey: Guid(254e7588d6b273245b981115c7365bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/mirror.mat using Guid(254e7588d6b273245b981115c7365bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8b295c47a42e7080e70fcda7c1b8b08') in 0.0156453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 182.607887 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/Materials
-  artifactKey: Guid(8347dce3da77cf44bb13a268a040e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/Materials using Guid(8347dce3da77cf44bb13a268a040e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fa934a9282c109d913b74d56f61ed06') in 0.0006963 seconds
+  Time since last request: 270.723011 seconds.
+  path: Assets/models/kvartira/room_byata
+  artifactKey: Guid(95daec5e647940444be1decfbffb5577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata using Guid(95daec5e647940444be1decfbffb5577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5117417270bdcacab2a3de71a49e3920') in 0.0006796 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063350 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/Materials/New Custom Render Texture.mat
-  artifactKey: Guid(d523352f308053d4cbe5a31ea622119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/Materials/New Custom Render Texture.mat using Guid(d523352f308053d4cbe5a31ea622119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '329573ca4797836b1ffb6213e2cee4ec') in 0.0169781 seconds
+  Time since last request: 15.555864 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv
+  artifactKey: Guid(91ad9f328efe6534f9a4a3f916c50ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv using Guid(91ad9f328efe6534f9a4a3f916c50ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92623765ceaee264dc918319e18e919d') in 0.0005229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051652 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/dom.fbx
+  artifactKey: Guid(e7bd04200b7d15e4c8f69d7b3f27d342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/dom.fbx using Guid(e7bd04200b7d15e4c8f69d7b3f27d342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff2ea514a32b9e82a38a76d5ce5689e8') in 0.1733004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.662483 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_albedo.jpg
+  artifactKey: Guid(24b35a529f7f34e40ba945b24b8acaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_albedo.jpg using Guid(24b35a529f7f34e40ba945b24b8acaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efaa7c3c4cd219c263cafd6ee2fa24f4') in 0.0234764 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 418.056674 seconds.
-  path: Assets/models/kvartira/skaf_with_zerkalo/gold.mat
-  artifactKey: Guid(235e387b81e5e154984b34f6285ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/skaf_with_zerkalo/gold.mat using Guid(235e387b81e5e154984b34f6285ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3105a951f77e870922becd4aee8af05') in 0.0188897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 8.919709 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_roughness.jpg
+  artifactKey: Guid(9a988ee967108ce4484946e9c2bc5d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_roughness.jpg using Guid(9a988ee967108ce4484946e9c2bc5d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c4c3b14e39e109695745fa03a6b693d') in 0.0154111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.046827 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_normal.png
+  artifactKey: Guid(5850d9ccb21feaa44adda920b954e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_normal.png using Guid(5850d9ccb21feaa44adda920b954e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e86ce8023b71cd5fc564cca0bec92dd7') in 0.0161056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.485446 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_metallic.jpg
+  artifactKey: Guid(7df951ca859b69a4699f9b2aca0ebb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_metallic.jpg using Guid(7df951ca859b69a4699f9b2aca0ebb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f76c9c3d57d041ffde301f71157090c') in 0.0068916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.361850 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_normal.png
+  artifactKey: Guid(5850d9ccb21feaa44adda920b954e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_normal.png using Guid(5850d9ccb21feaa44adda920b954e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4730bd0616983f8a8a47d89b7061b3d9') in 0.0245888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.282663 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_normal.png
+  artifactKey: Guid(5850d9ccb21feaa44adda920b954e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_normal.png using Guid(5850d9ccb21feaa44adda920b954e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de7f9f77bcb628bb2554feb5fdff152f') in 0.0131094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.034313 seconds.
+  path: Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_albedo.jpg
+  artifactKey: Guid(24b35a529f7f34e40ba945b24b8acaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/shkaf_tv/TV_stand_albedo.jpg using Guid(24b35a529f7f34e40ba945b24b8acaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2cf4bf7617505ca3f73dc976ecb8465') in 0.0148676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.836 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.864 seconds
+Domain Reload Profiling: 1698ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (498ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (685ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3687 unused Assets / (1.1 MB). Loaded Objects now: 4226.
+Memory consumption went from 86.6 MB to 85.5 MB.
+Total: 9.488000 ms (FindLiveObjects: 0.630000 ms CreateObjectMapping: 0.753900 ms MarkObjects: 6.637800 ms  DeleteObjects: 1.464600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 812.697309 seconds.
+  path: Assets/models/kvartira/room_byata/ikona
+  artifactKey: Guid(39d7ccb769f778f40b26e0d37a0027f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/ikona using Guid(39d7ccb769f778f40b26e0d37a0027f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84488449a3f2784271d059f99e7b86bb') in 0.0031035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.348585 seconds.
+  path: Assets/models/kvartira/room_byata/ikona/isus.fbx
+  artifactKey: Guid(7483cb67e72f02a4c8bd893008d0addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/ikona/isus.fbx using Guid(7483cb67e72f02a4c8bd893008d0addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49bfb6ed39afedbecb82a8c995b545ab') in 0.1547353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 410.622027 seconds.
+  path: Assets/models/kvartira/room_byata/pc
+  artifactKey: Guid(1aa33cebed175be4fa098d1f1a6cb04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/pc using Guid(1aa33cebed175be4fa098d1f1a6cb04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a32ed7db0f54b53963ba466f2a959886') in 0.0008136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072148 seconds.
+  path: Assets/models/kvartira/room_byata/pc/PC.fbx
+  artifactKey: Guid(9d4001f0559b81748a679c354b066d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/pc/PC.fbx using Guid(9d4001f0559b81748a679c354b066d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c42e5eed82983d3f4a9680cffe1de081') in 0.0534315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_SpecularLvl.png
+  artifactKey: Guid(3393bd1fb83efec42a4e5aa8dd27a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_SpecularLvl.png using Guid(3393bd1fb83efec42a4e5aa8dd27a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd33564aaf5212f2700f567741fdfbe') in 0.0302753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.549982 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Normal(OpenGL).png
+  artifactKey: Guid(fd1c04600aae88a45b48acd502cbd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Normal(OpenGL).png using Guid(fd1c04600aae88a45b48acd502cbd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93716fb5649cea3f0b7525a4cdf7ceae') in 0.0330497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.200043 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_BaseColor.png
+  artifactKey: Guid(ee114815e62924d4bb565e1433db93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_BaseColor.png using Guid(ee114815e62924d4bb565e1433db93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eab7897556b2005c898ccf9c18b30592') in 0.0190597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.231544 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_BaseColor.png
+  artifactKey: Guid(ee114815e62924d4bb565e1433db93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_BaseColor.png using Guid(ee114815e62924d4bb565e1433db93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f51ca71a517679eca93b4a922190edf') in 0.0195572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.087059 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Normal(OpenGL).png
+  artifactKey: Guid(fd1c04600aae88a45b48acd502cbd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Normal(OpenGL).png using Guid(fd1c04600aae88a45b48acd502cbd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c11cd14dd18f346ab70d41e46eb5d645') in 0.0164434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
