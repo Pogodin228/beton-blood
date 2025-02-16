@@ -406,6 +406,8 @@
 "Assets/Darkbringer Shader/DarkbringerEffect.cs"
 "Assets/Darkbringer Shader/Preview/DarkbringerUIPreview.cs"
 "Assets/Darkbringer Shader/Preview/Rotate.cs"
+"Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
+"Assets/movement.cs"
 -langversion:9.0
 /deterministic
 /optimize+
