@@ -15,7 +15,7 @@ C:/Users/Savelii/Documents/GitHub/beton-blood/blyat
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54352
+54995
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Savelii/Documents/GitHub/beton-blood/blyat
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10852]  Target information:
+Player connection [9476]  Target information:
 
-Player connection [10852]  * "[IP] 192.168.239.199 [Port] 0 [Flags] 2 [Guid] 2201961273 [EditorId] 2201961273 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0J43N59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9476]  * "[IP] 192.168.239.199 [Port] 0 [Flags] 2 [Guid] 2015547890 [EditorId] 2015547890 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0J43N59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10852] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10852] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9476] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9476] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004815 seconds.
-- Loaded All Assemblies, in  0.491 seconds
+Registered in 0.004549 seconds.
+- Loaded All Assemblies, in  0.510 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.419 seconds
-Domain Reload Profiling: 907ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.410 seconds
+Domain Reload Profiling: 916ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
+	RebuildCommonClasses (47ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (197ms)
-		LoadAssemblies (167ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (176ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (194ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (172ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (180ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (419ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (410ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (371ms)
+		SetupLoadedEditorAssemblies (361ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
+			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (196ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,153 +139,1613 @@ Domain Reload Profiling: 907ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.778 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.716 seconds
-Domain Reload Profiling: 1489ms
-	BeginReloadAssembly (233ms)
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1529ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (47ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (437ms)
-		LoadAssemblies (349ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (384ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (229ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (172ms)
-			BuildScriptInfoCaches (32ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (176ms)
+			BuildScriptInfoCaches (35ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (716ms)
+	FinalizeReload (715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (574ms)
+		SetupLoadedEditorAssemblies (573ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (418ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3689 unused Assets / (1.1 MB). Loaded Objects now: 4175.
-Memory consumption went from 82.4 MB to 81.3 MB.
-Total: 10.152700 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.754600 ms MarkObjects: 7.384000 ms  DeleteObjects: 1.484600 ms)
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3693 unused Assets / (2.0 MB). Loaded Objects now: 4181.
+Memory consumption went from 83.1 MB to 81.1 MB.
+Total: 11.106300 ms (FindLiveObjects: 0.510600 ms CreateObjectMapping: 0.631400 ms MarkObjects: 5.905300 ms  DeleteObjects: 4.057500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20108.638726 seconds.
-  path: Assets/models/kvartira/room_byata/window/standardSurface6_Height.png
-  artifactKey: Guid(c40c7c0f6b235094c82a940f76d5fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/room_byata/window/standardSurface6_Height.png using Guid(c40c7c0f6b235094c82a940f76d5fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a029b5f79a27ddbf2c929b61acadc6') in 0.0865931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 23952.731638 seconds.
+  path: Assets/Darkbringer Shader/DarkBringerRefined.shader
+  artifactKey: Guid(0a51e39822af4634782951e0eafaba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/DarkBringerRefined.shader using Guid(0a51e39822af4634782951e0eafaba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '689fa791001a92e81fa2b2aaebfb7f42') in 0.025179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/models/kvartira/room_byata/window/standardSurface6_Normal.png
-  artifactKey: Guid(6dbb9e1017a76194c955e7589431025b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/room_byata/window/standardSurface6_Normal.png using Guid(6dbb9e1017a76194c955e7589431025b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea69c15fe247464cc754bf842e3399d4') in 0.0155645 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000029 seconds.
+  path: Assets/Darkbringer Shader
+  artifactKey: Guid(2bf30a224dc4a0e49a9eea93ab10796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader using Guid(2bf30a224dc4a0e49a9eea93ab10796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f07b63be450cbea94bd2c9be268006f') in 0.0005962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/models/kvartira/room_byata/window/standardSurface6_Mixed_AO.png
-  artifactKey: Guid(82dae04a873472f45a2165aaafabd90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/room_byata/window/standardSurface6_Mixed_AO.png using Guid(82dae04a873472f45a2165aaafabd90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c58d667de8b0bbc16cc56c8dfd42f76') in 0.0143178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000044 seconds.
+  path: Assets/Darkbringer Shader/README.pdf
+  artifactKey: Guid(5f5d69107d1426a4fb8ebe79ce838fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/README.pdf using Guid(5f5d69107d1426a4fb8ebe79ce838fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '072a172d99e325b4e2007dffd28c6acd') in 0.0011656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1686.985115 seconds.
-  path: Assets/models/kvartira/door/without/door_Height.png
-  artifactKey: Guid(ae85b608ea71ad347a0cbc46907cc1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/door/without/door_Height.png using Guid(ae85b608ea71ad347a0cbc46907cc1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9778bc0e66f233107861c9749efe0868') in 0.0170389 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/models/kvartira/door/without/door_Normal_OpenGL.png
-  artifactKey: Guid(58ae134d16012044ca2826ab0c2d9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/door/without/door_Normal_OpenGL.png using Guid(58ae134d16012044ca2826ab0c2d9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '763df1a6d0f55068d0c1c90475652e5d') in 0.0190864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/models/kvartira/door/without/door_Mixed_AO.png
-  artifactKey: Guid(3a23421231299d748926233fa1911bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/door/without/door_Mixed_AO.png using Guid(3a23421231299d748926233fa1911bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b3a109dc9fa1acac91f616c8df503d5') in 0.0221232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 606.780713 seconds.
-  path: Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Base_color.png
-  artifactKey: Guid(64382b6e99d573e4484d24237e151d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Base_color.png using Guid(64382b6e99d573e4484d24237e151d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd499b5125b3b744d629916ac5631b7b') in 0.0207495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Roughness.png
-  artifactKey: Guid(5f07eff417b780b4695c6efd3f78552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Roughness.png using Guid(5f07eff417b780b4695c6efd3f78552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ab55ec5890741661be9e9bd48dc4629') in 0.0153493 seconds
+  Time since last request: 32.068640 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_CPC.png
+  artifactKey: Guid(f587c0fb24ed98346b1b6ea9763f624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_CPC.png using Guid(f587c0fb24ed98346b1b6ea9763f624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dc96b3cf994353eafec90110ad29cbb') in 0.0628326 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/models/kvartira/predmeti/pivo/can_baltica/Can_normal.jpg
-  artifactKey: Guid(4ae1c1eb894d9cf42912bd0841282d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/Can_normal.jpg using Guid(4ae1c1eb894d9cf42912bd0841282d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86717ed081b963c7f12a610c8e5d188e') in 0.0197291 seconds
+  path: Assets/Darkbringer Shader/LUTs/lut_Douchebag_And_Babes.png
+  artifactKey: Guid(a58d22c71d8fc93478b5ccd66d685d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_Douchebag_And_Babes.png using Guid(a58d22c71d8fc93478b5ccd66d685d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17f338bde32adf00462db6511b050eb1') in 0.014127 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 235.607512 seconds.
+  Time since last request: 0.698998 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_Obscure_toys.png
+  artifactKey: Guid(e0b79c6498d33e14c93b83b085310939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_Obscure_toys.png using Guid(e0b79c6498d33e14c93b83b085310939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c67521c1f356bddaf64083790819c032') in 0.0145827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025639 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_stock.PNG
+  artifactKey: Guid(ad6e386de0e0fb14096d245400d241d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_stock.PNG using Guid(ad6e386de0e0fb14096d245400d241d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67dfaec6d8a21ab4ccc1f01f461d532d') in 0.0143891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.718 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1320ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3696 unused Assets / (1.0 MB). Loaded Objects now: 4191.
+Memory consumption went from 82.8 MB to 81.7 MB.
+Total: 5.980300 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.452600 ms MarkObjects: 3.809900 ms  DeleteObjects: 1.328600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 423.268658 seconds.
+  path: Assets/CRT-Free/CRTs/Grey.asset
+  artifactKey: Guid(cc1fa106315fc44d0a167ce7d166cb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CRT-Free/CRTs/Grey.asset using Guid(cc1fa106315fc44d0a167ce7d166cb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f58b42f625899cc411808e47b5dd2d3c') in 0.0241183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.686 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1442ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3696 unused Assets / (1.1 MB). Loaded Objects now: 4191.
+Memory consumption went from 82.7 MB to 81.6 MB.
+Total: 7.408500 ms (FindLiveObjects: 0.419100 ms CreateObjectMapping: 0.412300 ms MarkObjects: 4.819300 ms  DeleteObjects: 1.756300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 113.205032 seconds.
+  path: Assets/CRT-Free/CRTRenderSettings.asset
+  artifactKey: Guid(2d929546960894d169f1999a321e4ff4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/CRTRenderSettings.asset using Guid(2d929546960894d169f1999a321e4ff4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da969c907aa0c49d7f58eface0c19736') in 0.1112427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Darkbringer Shader/DarkbringerEffect.cs
+  artifactKey: Guid(7fedc9c35d33c9544bd5239e7958d571) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/DarkbringerEffect.cs using Guid(7fedc9c35d33c9544bd5239e7958d571) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb99caa4ef69d2d4c6f9c06bfbd0d324') in 0.0208566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CRT-Free/Scripts/CRTDemoBehaviour.cs
+  artifactKey: Guid(0880c5f962c348a69172b7587c7b7eb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/Scripts/CRTDemoBehaviour.cs using Guid(0880c5f962c348a69172b7587c7b7eb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6943d84b0d0ff15d0495dc3d42baa6a5') in 0.0117563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/models/kvartira/room_byata/bath/bathh.fbx
+  artifactKey: Guid(461ed09865c1e0c45b48f41d46e0a7e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/bath/bathh.fbx using Guid(461ed09865c1e0c45b48f41d46e0a7e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d1f23e3c6ae67f90667dc870b4d9dbb') in 0.07949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Darkbringer Shader/DarkBringerRefined.shader
+  artifactKey: Guid(0a51e39822af4634782951e0eafaba9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/DarkBringerRefined.shader using Guid(0a51e39822af4634782951e0eafaba9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd008dc0493b9c1920ab5aa33f107a098') in 0.0146489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/CRT-Free/Scripts/CRTRenderSettingsObject.cs
+  artifactKey: Guid(e978e7f1e72848778c9d3ac8aa665195) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/Scripts/CRTRenderSettingsObject.cs using Guid(e978e7f1e72848778c9d3ac8aa665195) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '140fded1b6ba9162cdc71001694b6113') in 0.0108097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/models/kvartira/room_byata/karpet/Fine Persian Esfahan Carpet.fbx
+  artifactKey: Guid(7818138bdfd1c1a45a0db15777aea988) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/karpet/Fine Persian Esfahan Carpet.fbx using Guid(7818138bdfd1c1a45a0db15777aea988) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67de783e2750e4c7a548be389bb13c37') in 0.0198216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CRT-Free/CRTs/Moon.asset
+  artifactKey: Guid(b3e940007e9ae4a91a4073b56fa291a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/CRTs/Moon.asset using Guid(b3e940007e9ae4a91a4073b56fa291a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43e003a5e5010867c33edfbde72c8830') in 0.0198185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/R.mat
+  artifactKey: Guid(c1ab2a55d6cad9941935442ceeae8294) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Materials/R.mat using Guid(c1ab2a55d6cad9941935442ceeae8294) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e0e307614192b357ae3a6c8e6b8a25f') in 0.0103626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/room_byata/ikona/lambert5SG_Roughness.png
+  artifactKey: Guid(9aed80e5dac4f6f45b36f47a00a7a4bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/ikona/lambert5SG_Roughness.png using Guid(9aed80e5dac4f6f45b36f47a00a7a4bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ad5dbcf65c336378cdec75d641d8992') in 0.0454781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures/SkyCarBodyNormals.png
+  artifactKey: Guid(d4ffb7d0ebee510498fba9d50f2296f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Textures/SkyCarBodyNormals.png using Guid(d4ffb7d0ebee510498fba9d50f2296f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2937a70873dfe35476c195f2cf55e2a1') in 0.0375799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CRT-Free/CRTs/Grey.asset
+  artifactKey: Guid(cc1fa106315fc44d0a167ce7d166cb64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/CRTs/Grey.asset using Guid(cc1fa106315fc44d0a167ce7d166cb64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4532416a5b7939875b092f005e8306e') in 0.0152864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_GS.png
+  artifactKey: Guid(7b5dc218569c7b640b853c968b15ad0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/LUTs/lut_GS.png using Guid(7b5dc218569c7b640b853c968b15ad0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b4df7e71ef425535f53f6e3427b277e') in 0.0223654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarLightCoversGrey.mat
+  artifactKey: Guid(bf5faaa3a8e23de45bf1350be2893dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarLightCoversGrey.mat using Guid(bf5faaa3a8e23de45bf1350be2893dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57fce6a5de0a4412e2e86760def63671') in 0.0601752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/room_byata/bath/Bath_Base_Color.png
+  artifactKey: Guid(6eae7dbf864a1324cb67f236a3f4e2c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/bath/Bath_Base_Color.png using Guid(6eae7dbf864a1324cb67f236a3f4e2c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7ef242d3f9e8b2dd5a7b23af6a6e1cb') in 0.0282627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/room_byata/bath/Bath_Metallic.png
+  artifactKey: Guid(7680d8229cc0264458320df98fdf2cab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/bath/Bath_Metallic.png using Guid(7680d8229cc0264458320df98fdf2cab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '392678c5d0c83de64e8bbce42eadbcac') in 0.0330508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_CPC.png
+  artifactKey: Guid(f587c0fb24ed98346b1b6ea9763f624a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/LUTs/lut_CPC.png using Guid(f587c0fb24ed98346b1b6ea9763f624a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4f4afb08a1867e9a0b701d4f9a04b6e') in 0.0204926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/models/kvartira/room_byata/stena_dom/stena.fbx
+  artifactKey: Guid(e3027b6ffe434ce45bc7cc2dda283a70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stena_dom/stena.fbx using Guid(e3027b6ffe434ce45bc7cc2dda283a70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77d9cb93bea5896be01f9a8a4574608f') in 0.0212049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/kvartira/room_byata/window/standardSurface6_Mixed_AO.png
+  artifactKey: Guid(82dae04a873472f45a2165aaafabd90f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/window/standardSurface6_Mixed_AO.png using Guid(82dae04a873472f45a2165aaafabd90f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '165b3710c67ac323494f7c0128fd8298') in 0.0207687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/kvartira/room_byata/skaf_with_zerkalo/wood_table_001_diff_4k.jpg
+  artifactKey: Guid(c9a7caa6423166444b3924126de63a03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/skaf_with_zerkalo/wood_table_001_diff_4k.jpg using Guid(c9a7caa6423166444b3924126de63a03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c2803c94500d138f3f0dfb16ce8cdd0') in 0.0202136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/window/standardSurface6_Height.png
+  artifactKey: Guid(c40c7c0f6b235094c82a940f76d5fa3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/window/standardSurface6_Height.png using Guid(c40c7c0f6b235094c82a940f76d5fa3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54db14e6b82c72538a3804782897e77d') in 0.0221228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/room_byata/stol_pc/soviet_table_Material.001_Rough.png
+  artifactKey: Guid(45e5ac7d492c4f24985214ebda4ca682) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stol_pc/soviet_table_Material.001_Rough.png using Guid(45e5ac7d492c4f24985214ebda4ca682) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3af6c8ec248d6ad30b26864a55253afd') in 0.0222355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/sofa/ussr-sofa_DefaultMaterial_Roughness.png
+  artifactKey: Guid(3b5894640ce84f74994bb87465db1d0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/sofa/ussr-sofa_DefaultMaterial_Roughness.png using Guid(3b5894640ce84f74994bb87465db1d0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e994eaf6a04913346ce022ef6899252') in 0.031478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/models/kvartira/room_byata/radiator/батарея_Материал.001_Roughness.png
+  artifactKey: Guid(1c91145f61594eb44aea975e3a34d2f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/radiator/батарея_Материал.001_Roughness.png using Guid(1c91145f61594eb44aea975e3a34d2f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a198095356d5d9334386439f7e7a803e') in 0.0214708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelWhite.mat
+  artifactKey: Guid(6021947067b9d6c4bac8d9e085a71558) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelWhite.mat using Guid(6021947067b9d6c4bac8d9e085a71558) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a65efa6a57ea63b70e7a6ac7e6fd0ea7') in 0.0538865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/B.mat
+  artifactKey: Guid(22219d033f63b7642a183280d2191d28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Materials/B.mat using Guid(22219d033f63b7642a183280d2191d28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94a5da3d219ac871595dc2d55347d273') in 0.0128484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CRT-Free/Materials/CRTMaterial.mat
+  artifactKey: Guid(f5330722c9f5b47d4aebefaf84300f5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/Materials/CRTMaterial.mat using Guid(f5330722c9f5b47d4aebefaf84300f5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'add1b043e2657dac37643aeb8e1edbe4') in 0.0186148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
   path: Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Height.png
-  artifactKey: Guid(337b1003f4af0f24dbf103fc819dcb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Height.png using Guid(337b1003f4af0f24dbf103fc819dcb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '067ec0daff6bb366926956d38ed6eb3a') in 0.0144711 seconds
+  artifactKey: Guid(337b1003f4af0f24dbf103fc819dcb91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Height.png using Guid(337b1003f4af0f24dbf103fc819dcb91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47c40bdff25260461b6704802f1572c2') in 0.0210709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/radiator/radiator.fbx
+  artifactKey: Guid(3bcd4c470587840499055b0c9ad64ac4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/radiator/radiator.fbx using Guid(3bcd4c470587840499055b0c9ad64ac4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3f492f73c9a2cd8fb10fde751cf3551') in 0.0223816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Darkbringer Shader/Preview/DarkbringerUIPreview.cs
+  artifactKey: Guid(a47c1498388f0f04ba5ca82cb5ea7196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/DarkbringerUIPreview.cs using Guid(a47c1498388f0f04ba5ca82cb5ea7196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '339bca00295ea2b14d289ab7b28109bc') in 0.01272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/models/kvartira/room_byata/skaf_with_zerkalo/wood_table_001_rough_4k.jpg
+  artifactKey: Guid(68bf3c0b0aa179a40adfaf4109a5f6eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/skaf_with_zerkalo/wood_table_001_rough_4k.jpg using Guid(68bf3c0b0aa179a40adfaf4109a5f6eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b55a23905b9f87c54e5aea81e6b56cf') in 0.02005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/kvartira/room_byata/skaf_with_zerkalo/gold.mat
+  artifactKey: Guid(235e387b81e5e154984b34f6285ab855) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/skaf_with_zerkalo/gold.mat using Guid(235e387b81e5e154984b34f6285ab855) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75975b9e42cde9c0a962fa73b3118db8') in 0.0146828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CRT-Free/Scripts/CRTCameraBehaviour.cs
+  artifactKey: Guid(86832f84a0cf34eb9b89129d49b7a15e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/Scripts/CRTCameraBehaviour.cs using Guid(86832f84a0cf34eb9b89129d49b7a15e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1974d09f4f89df29b55f1599af420c0') in 0.0114465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_Famiclone.png
+  artifactKey: Guid(bb2cf10fe2fab384f8fd1da800838cb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/LUTs/lut_Famiclone.png using Guid(bb2cf10fe2fab384f8fd1da800838cb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4e68cc979bd61a90b7bbf10c3535faf') in 0.0225959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/kvartira/room_byata/stol_pc/soviet_table_Material.001_Normal.png
+  artifactKey: Guid(defbf832dde3d4b4892ccfcd44866088) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stol_pc/soviet_table_Material.001_Normal.png using Guid(defbf832dde3d4b4892ccfcd44866088) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b84af808532e1a6b51d2ae08f76e7673') in 0.0188603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Darkbringer Shader/Preview/PreviewScene.unity
+  artifactKey: Guid(0b29c596562c57844ae8cce327441195) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/PreviewScene.unity using Guid(0b29c596562c57844ae8cce327441195) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c4e831e741ba0071effcc5d5691790e') in 0.0171819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/models/kvartira/room_byata/skaf_with_zerkalo/New Custom Render Texture.asset
+  artifactKey: Guid(b8341622bbe25ec42b74584104c5dbe3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/skaf_with_zerkalo/New Custom Render Texture.asset using Guid(b8341622bbe25ec42b74584104c5dbe3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c402564135926cfb5c2e37e603345cd4') in 0.0376462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CRT-Free/Images/2de_noise_256_2.png
+  artifactKey: Guid(a5e897f9f29eb488ba4791cd52d004b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/Images/2de_noise_256_2.png using Guid(a5e897f9f29eb488ba4791cd52d004b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73bfcbff54b6b1e076cce1da908381c1') in 0.0225616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/kvartira/room_byata/door/door.fbx
+  artifactKey: Guid(3c080990cce78ac4b933c14b58c5deab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/door.fbx using Guid(3c080990cce78ac4b933c14b58c5deab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dc82535c97bfe33abe1e0a91f75b49b') in 0.026614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/sofa/ussr-sofa_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(1ba9f46b2db23694abdcbdef9d56c213) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/sofa/ussr-sofa_DefaultMaterial_BaseColor.png using Guid(1ba9f46b2db23694abdcbdef9d56c213) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1560644914e58f96e5a17bf771e5c58c') in 0.0184442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/room_byata/door/without/door_Height.png
+  artifactKey: Guid(ae85b608ea71ad347a0cbc46907cc1ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/without/door_Height.png using Guid(ae85b608ea71ad347a0cbc46907cc1ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61ad943074253e340fb3571d3482ec0a') in 0.0202946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov2/door_Base_color.png
+  artifactKey: Guid(34a621566d8419848a2066d4da03ace3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov2/door_Base_color.png using Guid(34a621566d8419848a2066d4da03ace3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5171a31b97919d23ae06830a1a09ea67') in 0.0197328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/models/kvartira/room_byata/pol/tex/Material.006_Roughness.png
+  artifactKey: Guid(ea5f29814d119c44bb059b81d897891f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pol/tex/Material.006_Roughness.png using Guid(ea5f29814d119c44bb059b81d897891f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b5f22706bd00523739f7a464b890abc') in 0.0203116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/room_byata/window/window.mat
+  artifactKey: Guid(abb7bf9d14330f446b791749990f0b88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/window/window.mat using Guid(abb7bf9d14330f446b791749990f0b88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d1aa7d01494ab7744d498a70424ddac') in 0.018199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/models/kvartira/room_byata/karpet/Materials/Fine Persian Esfahan Carpet - 375 x 256 cm 1.mat
+  artifactKey: Guid(afc0d6e9ad2ae6341a3763f361d2ff1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/karpet/Materials/Fine Persian Esfahan Carpet - 375 x 256 cm 1.mat using Guid(afc0d6e9ad2ae6341a3763f361d2ff1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '095d794b4cbfc4ae82c5cc5d7b9cb359') in 0.0148412 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001816 seconds.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov/door_Base_color.png
+  artifactKey: Guid(3b5bb06c0dfe9fb498a3df0fb64f8e7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov/door_Base_color.png using Guid(3b5bb06c0dfe9fb498a3df0fb64f8e7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb581c9fa02140c5d471a2adf49bd51c') in 0.0174073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov2/door_Mixed_AO.png
+  artifactKey: Guid(e44544041dcdb974b9563a1a57cfb1e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov2/door_Mixed_AO.png using Guid(e44544041dcdb974b9563a1a57cfb1e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9af1c1a6d4bff9a27d62cf8a659bdab1') in 0.0200134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/kvartira/room_byata/door/without/door_Normal.png
+  artifactKey: Guid(63ebaf1914391ef41a551c72ddc44f1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/without/door_Normal.png using Guid(63ebaf1914391ef41a551c72ddc44f1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e61b046be182cbae38348ae600ed9928') in 0.0178056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/kvartira/room_byata/skaf_with_zerkalo/Materials/wood_table_001_diff_4k.mat
+  artifactKey: Guid(9ce68f58dffe9d74c819ab05772d4543) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/skaf_with_zerkalo/Materials/wood_table_001_diff_4k.mat using Guid(9ce68f58dffe9d74c819ab05772d4543) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '025c2e1c76090b0628fdffc97c2c5c1b') in 0.0211276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov/door_Normal_OpenGL.png
+  artifactKey: Guid(bf200d048819e8b47b06d2d24fcca599) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov/door_Normal_OpenGL.png using Guid(bf200d048819e8b47b06d2d24fcca599) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bc2d695c00b513f3974c22d4edc3aa4') in 0.0190742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/room_byata/pol/tex/Material.006_Normal.png
+  artifactKey: Guid(5216abf57943e8c42afd6bd3deb08642) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pol/tex/Material.006_Normal.png using Guid(5216abf57943e8c42afd6bd3deb08642) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b9abdfb2fb458b7ca2de01f9fe59b3f') in 0.0218938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov2/door_Height.png
+  artifactKey: Guid(b625101e6fe31aa4391b5fe512763f2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov2/door_Height.png using Guid(b625101e6fe31aa4391b5fe512763f2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a709eb21f36071041d2470bc288dc1f') in 0.0199456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/kvartira/predmeti/pivo/can_baltica/baltica9.fbx
+  artifactKey: Guid(d0ab2c2714bf7bf498871b47cd69ccc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/baltica9.fbx using Guid(d0ab2c2714bf7bf498871b47cd69ccc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cbe6e68078ee5b9bed031ec136dc4da') in 0.0253829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/predmeti/pivo/can_baltica/Can_normal.jpg
+  artifactKey: Guid(4ae1c1eb894d9cf42912bd0841282d66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/Can_normal.jpg using Guid(4ae1c1eb894d9cf42912bd0841282d66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad291a27dad6bfb6becf9a3913fabc64') in 0.0205788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/room_byata/door/without/door_Metallic.png
+  artifactKey: Guid(ed6fe7bed01b4ca46996eb8e49f81b46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/without/door_Metallic.png using Guid(ed6fe7bed01b4ca46996eb8e49f81b46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efea89ad7b947e7891b73757508163c2') in 0.0211226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/kvartira/room_byata/pol/tex/Material.006_Height.png
+  artifactKey: Guid(14eda7e4498677446910634be6e0a782) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pol/tex/Material.006_Height.png using Guid(14eda7e4498677446910634be6e0a782) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3b2cae2702a3fb1258749811c2e1345') in 0.0202223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures/SkyCarWheelNormals.png
+  artifactKey: Guid(af58420b18450884782f4761c8f71952) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Textures/SkyCarWheelNormals.png using Guid(af58420b18450884782f4761c8f71952) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30eeaac891f7c618092b5ac38354468e') in 0.0179892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/room_byata/pol/keramuka.fbx
+  artifactKey: Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pol/keramuka.fbx using Guid(acabdab0a15a3ee40854f613bb4444dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa1730f1ba37e1f97154d3fab1076935') in 0.0179078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Darkbringer Shader/Preview/PreviewSceneSettings.lighting
+  artifactKey: Guid(976562addf797ea46b9e995dc78c7399) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/PreviewSceneSettings.lighting using Guid(976562addf797ea46b9e995dc78c7399) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9728d888117141367065773548ec185') in 0.0161684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/kvartira/room_byata/skaf_with_zerkalo/Materials/New Custom Render Texture.mat
+  artifactKey: Guid(d523352f308053d4cbe5a31ea622119a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/skaf_with_zerkalo/Materials/New Custom Render Texture.mat using Guid(d523352f308053d4cbe5a31ea622119a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f821c696efaaac6b29207e8623a2351d') in 0.011788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Darkbringer Shader/bayer8x8.png
+  artifactKey: Guid(eac7505667530464e91debe0b4a8492b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/bayer8x8.png using Guid(eac7505667530464e91debe0b4a8492b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '311fd4111bd9035f7ea14022b2caeb8b') in 0.0184331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Normal(OpenGL).png
+  artifactKey: Guid(fd1c04600aae88a45b48acd502cbd265) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Normal(OpenGL).png using Guid(fd1c04600aae88a45b48acd502cbd265) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5526f80b787558113913a529a84cec66') in 0.0166736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Metallic.png
+  artifactKey: Guid(21ad7d85d531ef14e976b158062b9f20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Metallic.png using Guid(21ad7d85d531ef14e976b158062b9f20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea3ecbbc28b1753d2e1c50aa3aeec024') in 0.0178353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Base_color.png
+  artifactKey: Guid(64382b6e99d573e4484d24237e151d6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Base_color.png using Guid(64382b6e99d573e4484d24237e151d6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44b8bfb1565cfcdfc961ae7d917770dd') in 0.0177372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Metallic.png
+  artifactKey: Guid(cd22402bb8822c74ea76b5eb6769506b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/Baltica_Metallic.png using Guid(cd22402bb8822c74ea76b5eb6769506b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a13ec0167d37f03d1078d11f327e110') in 0.0199242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Darkbringer Shader/README.pdf
+  artifactKey: Guid(5f5d69107d1426a4fb8ebe79ce838fdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/README.pdf using Guid(5f5d69107d1426a4fb8ebe79ce838fdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95fd9718ff16a785a3b816fe8b714cde') in 0.0115084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/kvartira/room_byata/ikona/lambert5SG_Base_color.png
+  artifactKey: Guid(ae9624dab459c0f4f948fccf348b1177) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/ikona/lambert5SG_Base_color.png using Guid(ae9624dab459c0f4f948fccf348b1177) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bfb31bdd95fc86b94a113121beb61e6') in 0.0211158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89759926d307f0bde9ff242c6614cee7') in 0.02205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Normal.png
+  artifactKey: Guid(5b6a420c262eede47800cf91549b0e94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Normal.png using Guid(5b6a420c262eede47800cf91549b0e94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f38b5f5fcf0f0312964c43d9cacfa83b') in 0.0204118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/room_byata/stol_pc/Materials/soviet_table_Material.001_BaseMap.mat
+  artifactKey: Guid(3eb57486663359140a221a25eff3afde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stol_pc/Materials/soviet_table_Material.001_BaseMap.mat using Guid(3eb57486663359140a221a25eff3afde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c42950c7178f44feb930fe548fedd738') in 0.0157226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/kvartira/predmeti/pivo/can_baltica/Materials/Baltica_Base_color.mat
+  artifactKey: Guid(42119f3bb886e2d418a3bb641f88ac42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/predmeti/pivo/can_baltica/Materials/Baltica_Base_color.mat using Guid(42119f3bb886e2d418a3bb641f88ac42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '991ebdea0817386c0742e1be8c1d2ea0') in 0.0226682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(b44505e35193d7242bfa4e3575f68c6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Normal_OpenGL.png using Guid(b44505e35193d7242bfa4e3575f68c6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15cd951370cef727f69c336cf2db6fef') in 0.0232788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Height.png
+  artifactKey: Guid(65a23da0deb076544b7703687bbce6b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Height.png using Guid(65a23da0deb076544b7703687bbce6b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f38b031457f89a7ca6cafb5431d26ac') in 0.0215725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarBodyWhite.mat
+  artifactKey: Guid(6ec41f7c0e0d3fb40933551a4124b211) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarBodyWhite.mat using Guid(6ec41f7c0e0d3fb40933551a4124b211) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10dc17486784e072e3c740d1b1792a0b') in 0.0370707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov2/door_Metallic.png
+  artifactKey: Guid(57ec68c0c731a2147ad4e649fc55da3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov2/door_Metallic.png using Guid(57ec68c0c731a2147ad4e649fc55da3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dadfbf883ea63d64b9cf64444e85e18') in 0.0221824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov2/door_Normal_OpenGL.png
+  artifactKey: Guid(ed3c4b308a4ea234fafb6a7b5501935c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov2/door_Normal_OpenGL.png using Guid(ed3c4b308a4ea234fafb6a7b5501935c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad29cf84160ca6c7830cdaab1ae7bf0a') in 0.0206723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelGrey.mat
+  artifactKey: Guid(965a4c3cf8f0acb408f15384c947b3fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelGrey.mat using Guid(965a4c3cf8f0acb408f15384c947b3fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b476694f5f7ce9b68e4557dd6bee1193') in 0.0189836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Base_color.png
+  artifactKey: Guid(e72827f6750eb49408d08cbbe8be853c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Base_color.png using Guid(e72827f6750eb49408d08cbbe8be853c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd69c866ac9e0b4400a0ab4e9a820f8f7') in 0.0189792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/kvartira/room_byata/door/krov/door_Mixed_AO.png
+  artifactKey: Guid(9b7ec244c730b7c49966909655e352f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/krov/door_Mixed_AO.png using Guid(9b7ec244c730b7c49966909655e352f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc23e3b67a3ed1b29e4aafbdd87f9ff2') in 0.0204961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
   path: Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Mixed_AO.png
-  artifactKey: Guid(ea0f2c3cd2c901543bc0a6979bbe02c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Mixed_AO.png using Guid(ea0f2c3cd2c901543bc0a6979bbe02c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bc4fb657b6e154d357eb915f8c77a33') in 0.0143309 seconds
+  artifactKey: Guid(ea0f2c3cd2c901543bc0a6979bbe02c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Mixed_AO.png using Guid(ea0f2c3cd2c901543bc0a6979bbe02c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67f77dcf250b44903b15581ecf60f766') in 0.0196546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CRT-Free/readme.md
+  artifactKey: Guid(e67107b51f9b4497bcf769ca8321fce2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CRT-Free/readme.md using Guid(e67107b51f9b4497bcf769ca8321fce2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5c9a0e865226022fe89468f98934620') in 0.0111839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Roughness.png
+  artifactKey: Guid(a07189cd30dd64941a23b82ee908e94f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/stena_dom/tex/DefaultMaterial_Roughness.png using Guid(a07189cd30dd64941a23b82ee908e94f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17f7d01b2d82da6cbe2ea4f7430e4fc7') in 0.0218251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_Douchebag_And_Babes.png
+  artifactKey: Guid(a58d22c71d8fc93478b5ccd66d685d8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/LUTs/lut_Douchebag_And_Babes.png using Guid(a58d22c71d8fc93478b5ccd66d685d8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '882f3a7f06f1a9141ee69cf6eb2dfee2') in 0.0223895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Metallic.png
+  artifactKey: Guid(a0a3360c648d6264dbb431475df26dd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_Metallic.png using Guid(a0a3360c648d6264dbb431475df26dd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '630de6a7dda24c73db0ca4acb3fa2b71') in 0.0265583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/G.mat
+  artifactKey: Guid(8593a362d8bae2a4a94256104c63cdc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Materials/G.mat using Guid(8593a362d8bae2a4a94256104c63cdc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c0974f92bb8aaa0ddfc50bdeca1cb9e') in 0.0133094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_BaseColor.png
+  artifactKey: Guid(ee114815e62924d4bb565e1433db93fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_BaseColor.png using Guid(ee114815e62924d4bb565e1433db93fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a7530e216f7b1d89fc589d0f7bca1f7') in 0.0198104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/models/kvartira/room_byata/bath/Bath_Normal_DirectX.png
+  artifactKey: Guid(336432d35de09804689909c267c93cb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/bath/Bath_Normal_DirectX.png using Guid(336432d35de09804689909c267c93cb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdba7fb7b700bb714231b90cd2f016c8') in 0.0246266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/door/without/Materials/door_Base_color.mat
+  artifactKey: Guid(472b77a999c14e94c849a753fb81dc2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/door/without/Materials/door_Base_color.mat using Guid(472b77a999c14e94c849a753fb81dc2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac6eadd0f3718ac7013b53ccaebec28e') in 0.0155367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures/SkyCarLightsGlowAlpha.png
+  artifactKey: Guid(6fc19647dd174e04e9793be879aea216) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Textures/SkyCarLightsGlowAlpha.png using Guid(6fc19647dd174e04e9793be879aea216) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6793198b20f53a9e4f3c0d503d615c5') in 0.021071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_SpecularLvl.png
+  artifactKey: Guid(3393bd1fb83efec42a4e5aa8dd27a5ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/pc/retro_computer_setup_Mat_SpecularLvl.png using Guid(3393bd1fb83efec42a4e5aa8dd27a5ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '349a45774c6d094c457c08f550bac7ec') in 0.024457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/room_byata/ikona/Materials/lambert5SG_Base_color.mat
+  artifactKey: Guid(eb69164f7e3502c4f8895b7d119bc19f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/ikona/Materials/lambert5SG_Base_color.mat using Guid(eb69164f7e3502c4f8895b7d119bc19f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b57906bc403bb48685dbc4624188de9c') in 0.0148508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/room_byata/potolok/potolok.fbx
+  artifactKey: Guid(833914e2aaebbb24594b1a2e74330803) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/potolok/potolok.fbx using Guid(833914e2aaebbb24594b1a2e74330803) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b954357aa0e78dec38e58e3087feb3d4') in 0.0195264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/kvartira/room_byata/radiator/батарея_Материал.001_BaseColor.png
+  artifactKey: Guid(a4991737ff1eecf4880b53c8939fbcbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/radiator/батарея_Материал.001_BaseColor.png using Guid(a4991737ff1eecf4880b53c8939fbcbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21ed4781bee116d8812b0efcb9765460') in 0.0320634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures/SkyCarWheelOcclusion.png
+  artifactKey: Guid(9486e5d1d37e86246b9bd1e314a8a721) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/Preview/Textures/SkyCarWheelOcclusion.png using Guid(9486e5d1d37e86246b9bd1e314a8a721) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dce2a9cbff76abd34ca49c0820b3010a') in 0.0200285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/room_byata/window/standardSurface6_Normal_OpenGL.png
+  artifactKey: Guid(4217a589e03819944b6fb05e923c58b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/room_byata/window/standardSurface6_Normal_OpenGL.png using Guid(4217a589e03819944b6fb05e923c58b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa9fcc13944ba09277e720b4ac4bd150') in 0.0231528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_stock.PNG
+  artifactKey: Guid(ad6e386de0e0fb14096d245400d241d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Darkbringer Shader/LUTs/lut_stock.PNG using Guid(ad6e386de0e0fb14096d245400d241d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eeff5d64752be7a577f88ff27a58aa34') in 0.0190933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.969317 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Material.006_Height.png
+  artifactKey: Guid(263bc065772bfe64984a5b27b9d22b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/pol_bath/Material.006_Height.png using Guid(263bc065772bfe64984a5b27b9d22b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf4c80964e33d836474b34bd5fcc6d56') in 0.0679139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Material.006_Mixed_AO.png
+  artifactKey: Guid(1abddea3c7824134685fd42061f7c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/pol_bath/Material.006_Mixed_AO.png using Guid(1abddea3c7824134685fd42061f7c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8a8955062b7c4bf4fe71a2e05fa4eb8') in 0.0144185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Material.006_Roughness.png
+  artifactKey: Guid(dc2d2961875a4884b8c1fd6289752caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/pol_bath/Material.006_Roughness.png using Guid(dc2d2961875a4884b8c1fd6289752caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b266bfb952848d2c0770fd63b994d92a') in 0.0173463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.161404 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Material.006_Normal.png
+  artifactKey: Guid(9568a412e8a601b48893041fd8fc33d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/pol_bath/Material.006_Normal.png using Guid(9568a412e8a601b48893041fd8fc33d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e645dc3f48f7dc9718fc25b8ccad759') in 0.0180831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Material.006_Base_color.png
+  artifactKey: Guid(1e00c20043fe070459fba63a83d5ef61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/pol_bath/Material.006_Base_color.png using Guid(1e00c20043fe070459fba63a83d5ef61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eca8a404998bf79ab7ac9e8a1c754c7b') in 0.0189006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Material.006_Height.png
+  artifactKey: Guid(263bc065772bfe64984a5b27b9d22b7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/pol_bath/Material.006_Height.png using Guid(263bc065772bfe64984a5b27b9d22b7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97693034f16995d3af3bd769dd76b075') in 0.0225358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Material.006_Mixed_AO.png
+  artifactKey: Guid(1abddea3c7824134685fd42061f7c6fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/pol_bath/Material.006_Mixed_AO.png using Guid(1abddea3c7824134685fd42061f7c6fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b57dec19410da129161ce55a91598073') in 0.0219213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.040863 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Materials/Material.006_Base_color.mat
+  artifactKey: Guid(a0791950e0c5d5948ab020ca2c300118) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/pol_bath/Materials/Material.006_Base_color.mat using Guid(a0791950e0c5d5948ab020ca2c300118) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd36a2f50ce7cca96a6dc1ae2b7104001') in 0.0179175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.515620 seconds.
+  path: Assets/models/kvartira/bath/bath/Bath_Mixed_AO.png
+  artifactKey: Guid(7834a37ef776a884c9dd685a1f8e2f86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/bath/Bath_Mixed_AO.png using Guid(7834a37ef776a884c9dd685a1f8e2f86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10ad80cda59f16d4ed802d1bb1cc5558') in 0.0183663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/bath/bath/Bath_Roughness.png
+  artifactKey: Guid(d01d53cfc28c08f4bb260909d0fc3e6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/bath/Bath_Roughness.png using Guid(d01d53cfc28c08f4bb260909d0fc3e6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84858a5b125cbbfa4b8c9e4db32cb0f0') in 0.0187594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/models/kvartira/bath/bath/Bath_Base_Color.png
+  artifactKey: Guid(31f52151caaa2bf469683e8375311984) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/bath/Bath_Base_Color.png using Guid(31f52151caaa2bf469683e8375311984) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2712cc57550bcf2226b6a05507e7a90') in 0.0215562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.539602 seconds.
+  path: Assets/models/kvartira/bath/bath/Bath_Metallic.png
+  artifactKey: Guid(d0b134a9d9b290646836bc035c5858c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/bath/Bath_Metallic.png using Guid(d0b134a9d9b290646836bc035c5858c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48dcae4ae773df52e32172f80bf9e468') in 0.0232645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/models/kvartira/bath/bath/bathh.fbx
+  artifactKey: Guid(bc713a4d15355b14bb6a591332d2982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/bath/bathh.fbx using Guid(bc713a4d15355b14bb6a591332d2982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd16885048a1a1d616fe94adbc3a411e4') in 0.1199373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.423448 seconds.
+  path: Assets/models/kvartira/bath/bath/Materials/Bath_Base_Color.mat
+  artifactKey: Guid(689b25382598dd9408989645484eaec9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/bath/Materials/Bath_Base_Color.mat using Guid(689b25382598dd9408989645484eaec9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bbc71c86479a13c3737036616b9cdab') in 0.0176403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.999471 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hinges_Base_color.png
+  artifactKey: Guid(7f9644669adc4ba43995a9d1ffcf6a7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/hinges_Base_color.png using Guid(7f9644669adc4ba43995a9d1ffcf6a7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc4127ea3d36e394ff69a073811e47d9') in 0.0274948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Roughness.png
+  artifactKey: Guid(ad166a20bd20045429e8071f066655d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Roughness.png using Guid(ad166a20bd20045429e8071f066655d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdb26ec801258e93747fe25501e64418') in 0.0355111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_Normal_OpenGL.png
+  artifactKey: Guid(8a4b330f8b994074698f78d3a14fc542) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Normal_OpenGL.png using Guid(8a4b330f8b994074698f78d3a14fc542) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '317834be73b3b83fe3a3aec6b96c4adb') in 0.0261675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_Mixed_AO.png
+  artifactKey: Guid(e8cd825f2a2411d42a19746f86d8752c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Mixed_AO.png using Guid(e8cd825f2a2411d42a19746f86d8752c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67375f144180a02cf2dde9e95789251b') in 0.0264504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_Roughness.png
+  artifactKey: Guid(dd1c0661519cfaa4a8613fde567732c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Roughness.png using Guid(dd1c0661519cfaa4a8613fde567732c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3238d5a98ce6dd484aeb8fc62f86b6e8') in 0.0206751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Height.png
+  artifactKey: Guid(3cc4b7a08b6bfd04a911a789a1a7cca8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Height.png using Guid(3cc4b7a08b6bfd04a911a789a1a7cca8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60cc63818ffe103dc360ed31ac312d7c') in 0.019482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Normal_OpenGL.png
+  artifactKey: Guid(97eaeee176929244ba3662cf1c60b3b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Normal_OpenGL.png using Guid(97eaeee176929244ba3662cf1c60b3b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ce22ceb59fb1ee52c6d3cbf32ebb639') in 0.0182894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hollowseat_Mixed_AO.png
+  artifactKey: Guid(9fbccfed486d8094ba34fa311c93c8da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/hollowseat_Mixed_AO.png using Guid(9fbccfed486d8094ba34fa311c93c8da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fbe8748e37b365c2e8f53d42ce11ac4') in 0.0203028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Roughness.png
+  artifactKey: Guid(907c9be2fca020f4ba20f831e3c1f986) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Roughness.png using Guid(907c9be2fca020f4ba20f831e3c1f986) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96a75eb8f403448bc9570155e262bc35') in 0.0205552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_Metallic.png
+  artifactKey: Guid(56c2fa7df3598b64db5952c8e95d0df8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Metallic.png using Guid(56c2fa7df3598b64db5952c8e95d0df8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8183d87bc36c8f9050b0f6586cff605') in 0.0180342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/bath/unitaz/cistern_Normal_OpenGL.png
+  artifactKey: Guid(4520c066b061a1b499487cfbcc983aab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/cistern_Normal_OpenGL.png using Guid(4520c066b061a1b499487cfbcc983aab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6011e0476f3a4386ea14414bda10b7be') in 0.0199021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hinges_Roughness.png
+  artifactKey: Guid(77eee56865f8667418bf48a589dcabb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/hinges_Roughness.png using Guid(77eee56865f8667418bf48a589dcabb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa7f001f3a96eb0192e9c19ae67f65ca') in 0.0184932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/models/kvartira/bath/unitaz/cistern_Height.png
+  artifactKey: Guid(ba5232782fe935f43a2cc1840c87a13a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/cistern_Height.png using Guid(ba5232782fe935f43a2cc1840c87a13a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5660156ace742941034a802b0ddc4b5d') in 0.0202138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/models/kvartira/bath/unitaz/cistern_Roughness.png
+  artifactKey: Guid(0b2e1a69df315f742a3ab907f1391723) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/cistern_Roughness.png using Guid(0b2e1a69df315f742a3ab907f1391723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5970ed8c3d37bd01df6385ceb328d80f') in 0.0212691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Roughness.png
+  artifactKey: Guid(78aabdc89e57cee40973cd6125cd56dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Roughness.png using Guid(78aabdc89e57cee40973cd6125cd56dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5b0baf6c6ac17bde06e9c71110198c8') in 0.0220256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hollowseat_Height.png
+  artifactKey: Guid(5daf3d03afef66f49b485e5327ca3d78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/hollowseat_Height.png using Guid(5daf3d03afef66f49b485e5327ca3d78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '627e2295e15336e7a69f73752fb96e72') in 0.0201307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/kvartira/bath/unitaz/cistern_Metallic.png
+  artifactKey: Guid(084b04b5a83420c419d239ffe986e97c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/cistern_Metallic.png using Guid(084b04b5a83420c419d239ffe986e97c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69c45b234f77eb9818e1bd3111c93173') in 0.0248708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/kvartira/bath/unitaz/chain_Height.png
+  artifactKey: Guid(fef2f50d1df3b2b43b53677e74ee3c97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/chain_Height.png using Guid(fef2f50d1df3b2b43b53677e74ee3c97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3da237de7e7f7cd315f7d4c09e63104b') in 0.0197675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Metallic.png
+  artifactKey: Guid(b5e7e8910c062fb4ea36375c591241b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Metallic.png using Guid(b5e7e8910c062fb4ea36375c591241b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19dd845e467fc478b6b0ad3b1c569bc1') in 0.0218594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_Height.png
+  artifactKey: Guid(8a9d11770314a714a875a9c3fd65bcc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Height.png using Guid(8a9d11770314a714a875a9c3fd65bcc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9289f8182de47368848118de8e0d431d') in 0.0215687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Base_color.png
+  artifactKey: Guid(b4431e633c8b89a4fa0e378d550b89bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Base_color.png using Guid(b4431e633c8b89a4fa0e378d550b89bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b5b0b2a4b772eebf38191d9f52f3a70') in 0.0235736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/kvartira/bath/unitaz/chain_Normal_OpenGL.png
+  artifactKey: Guid(26e49314f7758044391ed75faf28e57d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/chain_Normal_OpenGL.png using Guid(26e49314f7758044391ed75faf28e57d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18e123919a6073044fd1629225c0696e') in 0.0214875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Base_color.png
+  artifactKey: Guid(a2b422a2e954ec14e8156f6458f8cea0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Base_color.png using Guid(a2b422a2e954ec14e8156f6458f8cea0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26ce43d1864c5c28312818c70fc2c663') in 0.0200805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Mixed_AO.png
+  artifactKey: Guid(df3cf53e5b4786a43babbabfb481aab8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Mixed_AO.png using Guid(df3cf53e5b4786a43babbabfb481aab8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63736f60e6aba49b7f000add5794b322') in 0.0206593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Height.png
+  artifactKey: Guid(06604d464b33c244f85c2659b8933626) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Height.png using Guid(06604d464b33c244f85c2659b8933626) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c279f8504386b6ec19873cac5ae51a70') in 0.0186456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Normal_OpenGL.png
+  artifactKey: Guid(9fde81bd611128d47869b282ec2f3700) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Normal_OpenGL.png using Guid(9fde81bd611128d47869b282ec2f3700) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '565c9fd0c05db6279d9e60a92392a433') in 0.0193178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Normal.png
+  artifactKey: Guid(c5fcc10ed7e9ff84ab7c3418323a6acc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Normal.png using Guid(c5fcc10ed7e9ff84ab7c3418323a6acc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'caa018cdf99f2d9b0a2ad741eaec97aa') in 0.0193494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Height.png
+  artifactKey: Guid(15f5469a43e404f418aa9fe7463d8672) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Height.png using Guid(15f5469a43e404f418aa9fe7463d8672) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06cd3996876c9ec7b1318ed277c3037e') in 0.0199382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Metallic.png
+  artifactKey: Guid(1a5a0f342b32c004886981387f53efd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Metallic.png using Guid(1a5a0f342b32c004886981387f53efd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f38ad98cd0c722fe7d3959544ab7aa9d') in 0.018857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.395768 seconds.
+  path: Assets/models/kvartira/bath/unitaz/chain_Height.png
+  artifactKey: Guid(fef2f50d1df3b2b43b53677e74ee3c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/chain_Height.png using Guid(fef2f50d1df3b2b43b53677e74ee3c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeb6bddf1515e4b5de549563c16b3306') in 0.0158939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hinges_Normal_OpenGL.png
+  artifactKey: Guid(59382efe46680c14d865c5a54266bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hinges_Normal_OpenGL.png using Guid(59382efe46680c14d865c5a54266bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '941a6841f021f620acc9e853f2e0baf2') in 0.0159899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/bath/unitaz/chain_Mixed_AO.png
+  artifactKey: Guid(973e92da37253744ba47659d9ae1182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/chain_Mixed_AO.png using Guid(973e92da37253744ba47659d9ae1182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75f5afcdd99a2abf1b84c301d315e614') in 0.0147444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hinges_Height.png
+  artifactKey: Guid(073ce4759bd0fde4fba9a0bdb9d104ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hinges_Height.png using Guid(073ce4759bd0fde4fba9a0bdb9d104ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '450d9c22652452da32da571ff4982383') in 0.0163725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hinges_Roughness.png
+  artifactKey: Guid(77eee56865f8667418bf48a589dcabb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hinges_Roughness.png using Guid(77eee56865f8667418bf48a589dcabb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8077114d84e9a69bdd4e4d965620abe') in 0.0154998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hollowseat_Base_color.png
+  artifactKey: Guid(b506e6f31fb57f84ab2a51435e3637e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hollowseat_Base_color.png using Guid(b506e6f31fb57f84ab2a51435e3637e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dacc74ebb9224a5fb7987b3a2f20188') in 0.0152407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hollowseat_Height.png
+  artifactKey: Guid(5daf3d03afef66f49b485e5327ca3d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hollowseat_Height.png using Guid(5daf3d03afef66f49b485e5327ca3d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efd00d5a97fdd4ef7a4aca0accfb1746') in 0.0150764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/models/kvartira/bath/unitaz/chain_Normal_OpenGL.png
+  artifactKey: Guid(26e49314f7758044391ed75faf28e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/chain_Normal_OpenGL.png using Guid(26e49314f7758044391ed75faf28e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a24bce0265fd50535ef71f68a61a469d') in 0.0159996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hollowseat_Roughness.png
+  artifactKey: Guid(4aaca835bc8fac045b8d8e71c68fb681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hollowseat_Roughness.png using Guid(4aaca835bc8fac045b8d8e71c68fb681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '065396bb451fe9fa396454eb9e49448b') in 0.0151614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/kvartira/bath/unitaz/chain_Roughness.png
+  artifactKey: Guid(ec1082762be049547b74a8869cbce9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/chain_Roughness.png using Guid(ec1082762be049547b74a8869cbce9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '710cb1cf3c829351b02eb62b79376afa') in 0.0138333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Metallic.png
+  artifactKey: Guid(1a5a0f342b32c004886981387f53efd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Metallic.png using Guid(1a5a0f342b32c004886981387f53efd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd25104760ac0a377a71b31410edb5961') in 0.0062287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/kvartira/bath/unitaz/cistern_Normal.png
+  artifactKey: Guid(f034cb26e967af04cbce75fc2c890bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/cistern_Normal.png using Guid(f034cb26e967af04cbce75fc2c890bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23d538d84959af6be20357bb908521f3') in 0.0078267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hollowseat_Normal_OpenGL.png
+  artifactKey: Guid(be0dfd28837ef8d4a8da193857e56418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hollowseat_Normal_OpenGL.png using Guid(be0dfd28837ef8d4a8da193857e56418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f47c490a3debb0f87369e677f3aa442') in 0.0147493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/models/kvartira/bath/unitaz/chain_Normal.png
+  artifactKey: Guid(2450b9e9cab983540ac43ce698814dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/chain_Normal.png using Guid(2450b9e9cab983540ac43ce698814dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1703f38aca19bb19abb78688d954a8ce') in 0.0058553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hinges_Mixed_AO.png
+  artifactKey: Guid(a5e2cd817b7893f43a8c08b3c8face4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hinges_Mixed_AO.png using Guid(a5e2cd817b7893f43a8c08b3c8face4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc53967b79ac276327297b66baad5deb') in 0.0174449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/bath/unitaz/hollowseat_Metallic.png
+  artifactKey: Guid(6dfd0e74345007a41ac443f617ac9748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/hollowseat_Metallic.png using Guid(6dfd0e74345007a41ac443f617ac9748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e15d9d7fb5f90cfba7aab505bbdf45') in 0.0062649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391618 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Normal.png
+  artifactKey: Guid(c5fcc10ed7e9ff84ab7c3418323a6acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Normal.png using Guid(c5fcc10ed7e9ff84ab7c3418323a6acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da90052f9003873712fb60da7793dbc6') in 0.006848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Metallic.png
+  artifactKey: Guid(b63268c97b246e44bae82577f53fe793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Metallic.png using Guid(b63268c97b246e44bae82577f53fe793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2f0f5c86340e692bec286e8c6401858') in 0.0065812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Base_color.png
+  artifactKey: Guid(a2b422a2e954ec14e8156f6458f8cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Base_color.png using Guid(a2b422a2e954ec14e8156f6458f8cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22bae0692d1b894df52fb21c048f38eb') in 0.0081565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/bath/unitaz/lid_Normal_OpenGL.png
+  artifactKey: Guid(97eaeee176929244ba3662cf1c60b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/lid_Normal_OpenGL.png using Guid(97eaeee176929244ba3662cf1c60b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '124cc67c05445c56915a2af382196690') in 0.0169685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Normal.png
+  artifactKey: Guid(cfcf8664c4f3d404bb16f84f3590f80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Normal.png using Guid(cfcf8664c4f3d404bb16f84f3590f80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bb637ccd68ae16f2658ef139064d227') in 0.0071612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/models/kvartira/bath/unitaz/seatstoppers_Mixed_AO.png
+  artifactKey: Guid(df3cf53e5b4786a43babbabfb481aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/seatstoppers_Mixed_AO.png using Guid(df3cf53e5b4786a43babbabfb481aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fdcd0e9696f718d8ea51249daf48c03') in 0.0167169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005671 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet.fbx
+  artifactKey: Guid(ea1cd8bfb1ab07e4fa5ea7d886fcda65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/toilet.fbx using Guid(ea1cd8bfb1ab07e4fa5ea7d886fcda65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b6c8c24211e9e5d8edc67475a343111') in 0.054497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_Metallic.png
+  artifactKey: Guid(56c2fa7df3598b64db5952c8e95d0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Metallic.png using Guid(56c2fa7df3598b64db5952c8e95d0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c093888f38789e3413350c2d1538d12') in 0.006679 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Roughness.png
-  artifactKey: Guid(6025b2fefb99bb441a4e8d0296fcfd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Roughness.png using Guid(6025b2fefb99bb441a4e8d0296fcfd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a6dd833b217d81ce932eb58ae2c0957') in 0.0162166 seconds
+  path: Assets/models/kvartira/bath/unitaz/toilet_Height.png
+  artifactKey: Guid(8a9d11770314a714a875a9c3fd65bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Height.png using Guid(8a9d11770314a714a875a9c3fd65bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b8f65b381dcc1ca33cca93564bf335') in 0.0149328 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Normal.png
-  artifactKey: Guid(b1af8f6208fb5284fb3806ecbc920eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/kvartira/room_byata/potolok/DefaultMaterial_Normal.png using Guid(b1af8f6208fb5284fb3806ecbc920eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a8f87bdce610e972d8eb0c8b4180c6c') in 0.0099481 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_Normal_OpenGL.png
+  artifactKey: Guid(8a4b330f8b994074698f78d3a14fc542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_Normal_OpenGL.png using Guid(8a4b330f8b994074698f78d3a14fc542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9da5aeef7b8a90b29cace69a67d3f48') in 0.0132594 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329754 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Metallic.png
+  artifactKey: Guid(b5e7e8910c062fb4ea36375c591241b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Metallic.png using Guid(b5e7e8910c062fb4ea36375c591241b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2864d47e300b43287d725445e60b4b9b') in 0.006459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Normal.png
+  artifactKey: Guid(320780922b4b87b489e349752daa5336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Normal.png using Guid(320780922b4b87b489e349752daa5336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '963e6b894ebe44eada9385ba09d337a4') in 0.0068196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Roughness.png
+  artifactKey: Guid(ad166a20bd20045429e8071f066655d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Roughness.png using Guid(ad166a20bd20045429e8071f066655d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54a61a4a14b4af76996d8e94456bb3a5') in 0.0173092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/kvartira/bath/unitaz/waterpipe_Mixed_AO.png
+  artifactKey: Guid(92e9ca0a4003c1b4099a9ba90e1036b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/waterpipe_Mixed_AO.png using Guid(92e9ca0a4003c1b4099a9ba90e1036b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad25289cec932fb200857d1cab0178ce') in 0.0151594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 417.978120 seconds.
+  path: Assets/models/kvartira/bath/pol_bath/Materials/Material.006_Base_color.mat
+  artifactKey: Guid(a0791950e0c5d5948ab020ca2c300118) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/pol_bath/Materials/Material.006_Base_color.mat using Guid(a0791950e0c5d5948ab020ca2c300118) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fbf5fd87852a5b1ebe44ea325333685') in 0.0171866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/kvartira/bath/unitaz/krishka 1.mat
+  artifactKey: Guid(a850db7af6f5cd04a9901c047822159e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/krishka 1.mat using Guid(a850db7af6f5cd04a9901c047822159e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68af3198b3a0c39acf9d2f2046d8ab2b') in 0.0165799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.166659 seconds.
+  path: Assets/models/kvartira/bath/unitaz/smivka 1.mat
+  artifactKey: Guid(a653ba2d30028474ab2aa45f88c73e31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/smivka 1.mat using Guid(a653ba2d30028474ab2aa45f88c73e31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5e7677ad2c0239414acf82336cd2617') in 0.0157663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.144785 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_base 1.mat
+  artifactKey: Guid(70c825b8ba6e8984c893d2270c2d4d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_base 1.mat using Guid(70c825b8ba6e8984c893d2270c2d4d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98b9d9b080d14803fb7607adef66294d') in 0.0211636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945877 seconds.
+  path: Assets/models/kvartira/bath/unitaz/toilet_base 1.mat
+  artifactKey: Guid(70c825b8ba6e8984c893d2270c2d4d90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/kvartira/bath/unitaz/toilet_base 1.mat using Guid(70c825b8ba6e8984c893d2270c2d4d90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b82f1c9cbe3a3473b2b0aa8b93729206') in 0.0150039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.266912 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86c6468a53931abff4455cad7363e056') in 0.0238776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
